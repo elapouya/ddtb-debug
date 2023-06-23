@@ -99,7 +99,7 @@ Then goto http://localhost:8000/admin/polls/question/ to fill-in some questions.
 They will be accessible from http://localhost:8000/polls/ (that will be the test URL)
 
 You can know maximum connections allowed
-and follow the postgresql connection count ths way::
+and follow the postgresql connectionq count this way::
 
     sudo -i
     su - postgresql
