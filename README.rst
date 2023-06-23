@@ -70,6 +70,17 @@ Database init
 
 As user::
 
+Create the config file ~/.config/ddtb.toml with your database informations::
+
+    [databases.default]
+    name = "ddtb_debug"
+    user = "www"
+    password = "your password"
+
+I modified ``settings.py`` to read that file.
+
+Migrate and create superuser::
+
     cd ~/projects/ddtb-debug
     poetry shell
     ./manage.py migrate
