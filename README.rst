@@ -95,8 +95,8 @@ You will need to go to django admin to create some question::
     poetry shell
     ./manage.py runserver
 
-Then goto `http://localhost:8000/admin/polls/question/`_ to fill-in some question.
-They will be accessible from `http://localhost:8000/polls/`_ (that will be the test URL)
+Then goto http://localhost:8000/admin/polls/question/ to fill-in some questions.
+They will be accessible from http://localhost:8000/polls/ (that will be the test URL)
 
 You can know maximum connections allowed
 and follow the postgresql connection count ths way::
